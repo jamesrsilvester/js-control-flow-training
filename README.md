@@ -25,17 +25,18 @@ while (true && numIterations < 100){
 
 Work in the security_questions.js file.
 
-1. Create an array called `securityQuestions`. Each element of `securityQuestions` will be an object with two keys: `question` and `expectedAnswer`.
+X1. Create an array called `securityQuestions`. Each element of `securityQuestions` will be an object with two keys: `question` and `expectedAnswer`.
 
-1. Populate (fill) `securityQuestions` with at least three such objects. Feel free to just make them up. For example, one security question object might be:  
+X1. Populate (fill) `securityQuestions` with at least three such objects. Feel free to just make them up. For example, one security question object might be:  
 
 	```js
 	{ question: "What was your first pet's name?", expectedAnswer: "FlufferNutter" }
 	```
-
+  ======
 
 1. Write code that goes through each of the security questions in your array doing the following:   
-  * use `window.prompt` (short name: `prompt`) to create a popup in the browser with the question    
+  * use `window.prompt` (short name: `prompt`) to create a popup in the browser with the question
+      
   * check whether the user's input matches the expected answer    
   		* if the answer does match, ask the next question
   		* if the answer doesn't match, stop asking questions and pop up an alert message.
@@ -71,7 +72,7 @@ Work in the sing.js file.
 		4 bottles of beer on the wall!
 
 
-2. Bonus: fix "1 bottles of beer". It should say "1 bottle of beer". 
+2. Bonus: fix "1 bottles of beer". It should say "1 bottle of beer".
 
 3. Bonus: change "0 bottles..." to "No more bottles...".
 
